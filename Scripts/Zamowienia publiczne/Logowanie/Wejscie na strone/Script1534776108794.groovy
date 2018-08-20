@@ -30,3 +30,4 @@ WebUI.navigateToUrl('http:\\drb1.pl.hostingasp.pl')
 Thread.sleep(3000)
 
 WebUI.doubleClick(findTestObject('InZaMon/input_form-control ng-pristine login-page-login'))
+
