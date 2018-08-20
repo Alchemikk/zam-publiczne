@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>C%%Users%Kajetan Kaczmarek%Katalon Studio%InZamon%InZamon.prj</name>
 	<comment></comment>
 	<projects>
@@ -27,6 +28,35 @@
 		</filter>
 		<filter>
 			<id>1534775887773</id>
+=======
+	<name>C%%Users%Kajetan Kaczmarek%git%zam-publiczne%zam-publiczne.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1534770056406</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1534770056413</id>
+>>>>>>> branch 'master' of https://github.com/Alchemikk/zam-publiczne
 			<name></name>
 			<type>6</type>
 			<matcher>
