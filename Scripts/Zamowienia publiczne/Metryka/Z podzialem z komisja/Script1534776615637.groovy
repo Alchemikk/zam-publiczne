@@ -78,3 +78,4 @@ WebUI.selectOptionByValue(findTestObject('InZaMon/Page_E-Zamwienia/select_Przewo
 WebUI.click(findTestObject('InZaMon/span_Zapisz nowe postepowanie'))
 
 WebUI.click(findTestObject('InZaMon/h3_wejscie w metryke do edycji'), FailureHandling.STOP_ON_FAILURE)
+
