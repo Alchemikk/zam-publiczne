@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logowanie" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="Logowanie" tests="2" failures="0" errors="0" time="32" timestamp="2018-08-20 17:10:56" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Logowanie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\InZamon\\Reports\\Logowanie\\20180820_171053"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\InZamon\\Reports\\Logowanie\\20180820_171053\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="359a2e630aa2d2dfbfcb7250dcaff637"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone" classname="Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-20 17:10:57 - [TEST_CASE][PASSED] - Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone: Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone
+
+2018-08-20 17:10:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 17:11:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 17:11:03 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-20 17:11:03 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-20 17:11:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-20 17:11:20 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-20 17:11:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-20 17:11:23 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/InZaMon/input_form-control ng-pristine login-page-login' is double clicked on
+
+2018-08-20 17:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/input_form-control ng-pristine login-page-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne" classname="Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-20 17:11:23 - [TEST_CASE][PASSED] - Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne: Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne
+
+2018-08-20 17:11:24 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-20 17:11:24 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-20 17:11:24 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-20 17:10:56 - [TEST_SUITE][PASSED] - Logowanie: Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Stworzenie metryki" time="44" tests="3" failures="0" errors="0">
+   <testsuite name="Stworzenie metryki" tests="3" failures="0" errors="0" time="44" timestamp="2018-08-20 17:13:02" hostname="Kajetan Kaczmarek - LAPTOP-2OLM88US" id="Test Suites/Stworzenie metryki">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\InZamon\\Reports\\Stworzenie metryki\\20180820_171259"/>
+         <property name="logFiles" value="C:\\Users\\Kajetan Kaczmarek\\Katalon Studio\\InZamon\\Reports\\Stworzenie metryki\\20180820_171259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kajetan Kaczmarek - LAPTOP-2OLM88US"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.20.91"/>
+         <property name="sessionId" value="ece9c230bcebda01623e61559d6f789a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone" classname="Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone" status="PASSED">
+         <system-out><![CDATA[2018-08-20 17:13:03 - [TEST_CASE][PASSED] - Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone: Test Cases/Zamowienia publiczne/Logowanie/Wejscie na strone
+
+2018-08-20 17:13:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-20 17:13:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-20 17:13:09 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login11.exe": null
+
+2018-08-20 17:13:09 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-20 17:13:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-20 17:13:26 - [MESSAGE][PASSED] - Navigate to 'http:\drb1.pl.hostingasp.pl' successfully
+
+2018-08-20 17:13:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-20 17:13:29 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/InZaMon/input_form-control ng-pristine login-page-login' is double clicked on
+
+2018-08-20 17:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/input_form-control ng-pristine login-page-login' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne" classname="Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne" status="PASSED">
+         <system-out><![CDATA[2018-08-20 17:13:30 - [TEST_CASE][PASSED] - Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne: Test Cases/Zamowienia publiczne/Logowanie/Logowanie poprawne
+
+2018-08-20 17:13:30 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\inzamon\login-correct.exe": null
+
+2018-08-20 17:13:30 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-08-20 17:13:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zamowienia publiczne/Metryka/Z podzialem z komisja" classname="Test Cases/Zamowienia publiczne/Metryka/Z podzialem z komisja" status="PASSED">
+         <system-out><![CDATA[2018-08-20 17:13:35 - [TEST_CASE][PASSED] - Test Cases/Zamowienia publiczne/Metryka/Z podzialem z komisja: Test Cases/Zamowienia publiczne/Metryka/Z podzialem z komisja
+
+2018-08-20 17:13:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-20 17:13:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-20 17:13:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Nowe postpowanie' is clicked on
+
+2018-08-20 17:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Nowe postpowanie' is clicked on
+
+2018-08-20 17:13:36 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018_M1' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_Number'
+
+2018-08-20 17:13:37 - [MESSAGE][PASSED] - Text '556201-N-2018_M1' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_Number'
+
+2018-08-20 17:13:37 - [TEST_STEP][PASSED] - setText: Text 'Przetarg testowy' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_Name'
+
+2018-08-20 17:13:38 - [MESSAGE][PASSED] - Text 'Przetarg testowy' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_Name'
+
+2018-08-20 17:13:38 - [TEST_STEP][PASSED] - setText: Text '556201-N-2018 Metryka z podzialem z komisja' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/textarea_Description'
+
+2018-08-20 17:13:38 - [MESSAGE][PASSED] - Text '556201-N-2018 Metryka z podzialem z komisja' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/textarea_Description'
+
+2018-08-20 17:13:38 - [TEST_STEP][PASSED] - setText: Text 'Białystok' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description0'
+
+2018-08-20 17:13:39 - [MESSAGE][PASSED] - Text 'Białystok' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description0'
+
+2018-08-20 17:13:39 - [TEST_STEP][PASSED] - setText: Text '132000' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v'
+
+2018-08-20 17:13:39 - [MESSAGE][PASSED] - Text '132000' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v'
+
+2018-08-20 17:13:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj' is present
+
+2018-08-20 17:13:39 - [MESSAGE][PASSED] - Object 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj' is present
+
+2018-08-20 17:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj' is clicked on
+
+2018-08-20 17:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj' is clicked on
+
+2018-08-20 17:13:39 - [TEST_STEP][PASSED] - setText: Text 'Kleosin' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description1'
+
+2018-08-20 17:13:40 - [MESSAGE][PASSED] - Text 'Kleosin' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description1'
+
+2018-08-20 17:13:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description1' is present
+
+2018-08-20 17:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description1' is present
+
+2018-08-20 17:13:40 - [TEST_STEP][PASSED] - setText: Text '52800' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v_1'
+
+2018-08-20 17:13:40 - [MESSAGE][PASSED] - Text '52800' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v_1'
+
+2018-08-20 17:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj2' is clicked on
+
+2018-08-20 17:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj2' is clicked on
+
+2018-08-20 17:13:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description2' is present
+
+2018-08-20 17:13:41 - [MESSAGE][PASSED] - Object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description2' is present
+
+2018-08-20 17:13:41 - [TEST_STEP][PASSED] - setText: Text 'Grajewo' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description2'
+
+2018-08-20 17:13:41 - [MESSAGE][PASSED] - Text 'Grajewo' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_description2'
+
+2018-08-20 17:13:41 - [TEST_STEP][PASSED] - setText: Text '28800' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v2'
+
+2018-08-20 17:13:41 - [MESSAGE][PASSED] - Text '28800' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_normal ng-untouched ng-v2'
+
+2018-08-20 17:13:41 - [TEST_STEP][PASSED] - setText: Text 'P' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person0'
+
+2018-08-20 17:13:41 - [MESSAGE][PASSED] - Text 'P' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person0'
+
+2018-08-20 17:13:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Pastuka Robert' is clicked on
+
+2018-08-20 17:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Pastuka Robert' is clicked on
+
+2018-08-20 17:13:42 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-08-20 17:13:42 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-08-20 17:13:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy'  using regular expression
+
+2018-08-20 17:13:42 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy'  using regular expression
+
+2018-08-20 17:13:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj3' is clicked on
+
+2018-08-20 17:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj3' is clicked on
+
+2018-08-20 17:13:43 - [TEST_STEP][PASSED] - setText: Text 'B' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person1'
+
+2018-08-20 17:13:43 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person1'
+
+2018-08-20 17:13:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Bana Maria' is clicked on
+
+2018-08-20 17:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Bana Maria' is clicked on
+
+2018-08-20 17:13:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy2'  using regular expression
+
+2018-08-20 17:13:44 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy2'  using regular expression
+
+2018-08-20 17:13:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj4' is clicked on
+
+2018-08-20 17:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/button_Dodaj4' is clicked on
+
+2018-08-20 17:13:45 - [TEST_STEP][PASSED] - setText: Text 'K' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person2'
+
+2018-08-20 17:13:45 - [MESSAGE][PASSED] - Text 'K' is set on object 'Object Repository/InZaMon/Page_E-Zamwienia/input_person2'
+
+2018-08-20 17:13:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-20 17:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/Page_E-Zamwienia/a_Kalinowski Tadeusz' is clicked on
+
+2018-08-20 17:13:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy3'  using regular expression
+
+2018-08-20 17:13:46 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/InZaMon/Page_E-Zamwienia/select_Przewodniczcy3'  using regular expression
+
+2018-08-20 17:13:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/span_Zapisz nowe postepowanie' is clicked on
+
+2018-08-20 17:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/span_Zapisz nowe postepowanie' is clicked on
+
+2018-08-20 17:13:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/InZaMon/h3_wejscie w metryke do edycji' is clicked on
+
+2018-08-20 17:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/InZaMon/h3_wejscie w metryke do edycji' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-20 17:13:02 - [TEST_SUITE][PASSED] - Stworzenie metryki: Test Cases/Zamowienia publiczne/Metryka/Z podzialem z komisja]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
